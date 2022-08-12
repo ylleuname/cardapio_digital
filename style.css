@@ -1,0 +1,80 @@
+/*retira as margens e os espacos*/
+*{
+  margin:0;
+  padding:0;
+}
+
+/*cor do fundo*/
+body{
+  background-color: #FFEDD5;
+  font-family: 'Roboto', sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*trata do estilo da listagem*/
+ul{
+  list-style: none;
+}
+
+header{
+  max-width: 300px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  padding: 32px 0;
+  
+}
+
+header h1 span{
+  color: #995000;
+}
+
+header h1{
+  margin-bottom: 4px;
+}
+
+#subtitulo{
+  color: rgba(0,0,0,0.7);
+}
+
+section{
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+h2{
+  background-color: #FED7AA;
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+div{
+  max-width: 230px;
+}
+
+ul li{
+  margin-bottom: 16px;
+  display:flex;
+  font-size: 14px;
+}
+strong{
+  max-width: 60px;
+  margin-left: 10px;
+}
+
+#detail{
+  margin-top: 8px;
+  color: rgba(0,0,0,0.6);
+  font-size:14px
+}
+
+/*fontes do projeto*/
+h1, h2, h3, strong{
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+  color: #2D2C2A
+}

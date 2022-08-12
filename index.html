@@ -1,0 +1,81 @@
+
+<!-- div é uma flag que constrói um aninhamento de outras flags 
+
+<div>
+  <h1>Título <span> texto depois do titulo </span> </h1>
+  <p>paragrafo</p>  
+</div>
+
+-->
+
+<!DOCTYPE html>
+<!-- tag root -->
+<html lang="pt-br">
+  <!-- informacoes não visiveis -->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&display=swap" rel="stylesheet">
+    
+    <!-- define um conjunto de caracteres UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- viewport é a parte visivel em n dispositivos, o segundo argumento
+         permite que a largura (width) seja igual a largura do dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio digital</title>
+    <link rel = "stylesheet" href= "./style.css">
+  </head>
+  <!-- parte visivel -->
+  <body>
+    
+    <header> 
+      <h1>Restaurante<span>zito</span></h1>
+      <p id= "subtitulo">Aberto todos os dias. 11h-17h</p>
+    </header>
+
+    <section>
+      <h2>Almoço</h2>
+      <ul>
+        <li>
+          <div class = "comidas">
+            <h3>Lasang de frango com milho</h3>
+            <p id="detail">Tem milho.</p>
+          </div>
+          <strong>
+            R$22,50
+          </strong>
+        </li>
+
+        <li>
+          <div class = "comidas">
+            <h3>Lasang de frango sem milho</h3>
+            <p id = "detail">Não tem milho.</p>
+          </div>
+          <strong>
+            R$22,75
+          </strong>
+        </li>
+      </ul>
+      <h2>Lanche</h2>
+      <ul>
+        <li>
+          <div>
+            <h3>Pão de queijo e leite com toddy</h3>
+            <p id = "detail">Gotoso.</p>
+          </div>
+          <strong>
+            R$5,00
+          </strong>
+        </li>
+        <li>
+          <div>
+            <h3>Salada de frutas</h3>
+            <p id="detail">Melão, morango, banana e melancia.</p>
+          </div>
+          <strong>
+            R$5,13
+          </strong>
+        </li>     
+    </section>   
+  </body>
+</html>
